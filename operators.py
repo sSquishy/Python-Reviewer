@@ -11,7 +11,6 @@ exponentiation = a ** b
 intdivision = a // b
 absolute_value = abs(c)
 
-
 print(f"a = {a} \nb = {b}\nc = {c}\n")
 print(f"Addition: {a} + {b} = {addition}")
 print(f"Subtraction: {a} - {b} = {subtraction}")
@@ -21,7 +20,6 @@ print(f"Integer Division: {a} // {b} = {intdivision}")
 print(f"Modulus/Remainder: {a} % {b} = {modulus}")
 print(f"Exponentiation: {a} ** {b} = {exponentiation}")
 print(f"Absolute Value: {c} = {absolute_value}")
-
 
 # Comparison operators
 x = 5
