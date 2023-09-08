@@ -1,5 +1,4 @@
 #statement
-
 message = 'message'
 char = 's'
 int = 23
