@@ -28,8 +28,9 @@ sum_result, difference = calculate_values(10, 5)
 print("Sum:", sum_result)
 print("Difference:", difference)
 
-#local/global vairables
+# Local and global variables
 print("\n")
+
 def my_function():
     local_variable = 10
     print("Local variable:", local_variable)
