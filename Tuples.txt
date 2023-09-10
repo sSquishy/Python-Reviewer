@@ -13,3 +13,9 @@ print("Last fruit:", fruits[-1])  # Prints the last element (index -1)
 print("All fruits:")
 for fruit in fruits:
     print(fruit)
+
+# Checking if an item exists in the tuple
+if "banana" in fruits:
+    print("Yes, banana is in the tuple")
+else:
+    print("No, banana is not in the tuple")
