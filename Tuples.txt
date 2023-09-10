@@ -23,3 +23,8 @@ else:
 # Getting the length of a tuple
 num_fruits = len(fruits)
 print("Number of fruits in the tuple:", num_fruits)
+
+# Combining tuples (creating a new tuple)
+more_fruits = ("grape", "kiwi", "orange")
+combined_fruits = fruits + more_fruits
+print("Combined fruits:", combined_fruits)
