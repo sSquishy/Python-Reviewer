@@ -28,3 +28,7 @@ print("Number of fruits in the tuple:", num_fruits)
 more_fruits = ("grape", "kiwi", "orange")
 combined_fruits = fruits + more_fruits
 print("Combined fruits:", combined_fruits)
+
+# Counting the occurrences of an item in a tuple
+count_apple = combined_fruits.count("apple")
+print("Number of apples in the combined fruits:", count_apple)
