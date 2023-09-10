@@ -5,13 +5,23 @@ fruits = ("apple", "banana", "cherry")
 for x in fruits:
     print("Fruit:", x)
 
+<<<<<<< HEAD
+
+#while loop
+=======
 # while loop
+>>>>>>> revert-4-backup
 count = 0
 while count < 5:
     print("Count:", count)
     count += 1
 
+<<<<<<< HEAD
+
+#while loop with if-else
+=======
 # while loop with if-else
+>>>>>>> revert-4-backup
 num = 0
 while num < 5:
     if num % 2 == 0:
