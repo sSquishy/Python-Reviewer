@@ -19,3 +19,7 @@ if "banana" in fruits:
     print("Yes, banana is in the tuple")
 else:
     print("No, banana is not in the tuple")
+
+# Getting the length of a tuple
+num_fruits = len(fruits)
+print("Number of fruits in the tuple:", num_fruits)
