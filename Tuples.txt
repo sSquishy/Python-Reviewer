@@ -1,0 +1,15 @@
+# Creating a tuple
+fruits = ("apple", "banana", "cherry")
+
+# Accessing elements in a tuple
+print("First fruit:", fruits[0])  # Prints the first element (index 0)
+print("Second fruit:", fruits[1])  # Prints the second element (index 1)
+print("Last fruit:", fruits[-1])  # Prints the last element (index -1)
+
+# Attempting to modify a tuple will result in an error
+# fruits[0] = "orange"  # This will raise a TypeError
+
+# Iterating through a tuple
+print("All fruits:")
+for fruit in fruits:
+    print(fruit)
