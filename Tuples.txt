@@ -32,3 +32,11 @@ print("Combined fruits:", combined_fruits)
 # Counting the occurrences of an item in a tuple
 count_apple = combined_fruits.count("apple")
 print("Number of apples in the combined fruits:", count_apple)
+
+# Finding the index of an item in a tuple
+index_cherry = combined_fruits.index("cherry")
+print("Index of 'cherry' in the combined fruits:", index_cherry)
+
+# Unpacking a tuple
+a, b, c = fruits
+print("Unpacked fruits:", a, b, c)
