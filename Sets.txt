@@ -9,3 +9,7 @@ print("Colors Set:", colors)
 # Adding an element to a set
 fruits.add("orange")
 print("Fruits Set after adding 'orange':", fruits)
+
+# Removing an element from a set
+fruits.remove("banana")
+print("Fruits Set after removing 'banana':", fruits)
