@@ -5,3 +5,7 @@ colors = {"red", "green", "blue"}
 # Printing the sets
 print("Fruits Set:", fruits)
 print("Colors Set:", colors)
+
+# Adding an element to a set
+fruits.add("orange")
+print("Fruits Set after adding 'orange':", fruits)
