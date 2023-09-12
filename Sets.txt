@@ -35,3 +35,7 @@ print("Is {'red', 'green'} a subset of Colors?", is_subset)
 # Checking if two sets have no common elements (Disjoint sets)
 are_disjoint = fruits.isdisjoint(colors)
 print("Are Fruits and Colors disjoint sets?", are_disjoint)
+
+# Removing all elements from a set
+fruits.clear()
+print("Fruits Set after clearing:", fruits)
