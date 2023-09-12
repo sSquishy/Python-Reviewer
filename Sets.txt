@@ -1,3 +1,7 @@
 # Creating sets
 fruits = {"apple", "banana", "cherry"}
 colors = {"red", "green", "blue"}
+
+# Printing the sets
+print("Fruits Set:", fruits)
+print("Colors Set:", colors)
