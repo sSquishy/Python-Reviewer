@@ -31,3 +31,7 @@ print("Common Elements between Fruits and Colors:", common_elements)
 # Checking if one set is a subset of another
 is_subset = {"red", "green"}.issubset(colors)
 print("Is {'red', 'green'} a subset of Colors?", is_subset)
+
+# Checking if two sets have no common elements (Disjoint sets)
+are_disjoint = fruits.isdisjoint(colors)
+print("Are Fruits and Colors disjoint sets?", are_disjoint)
