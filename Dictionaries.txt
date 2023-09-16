@@ -1,0 +1,21 @@
+# Creating sets
+fruits = {"apple", "banana", "cherry"}
+colors = {"red", "green", "blue"}
+
+# Printing the sets
+print("Fruits Set:", fruits)
+print("Colors Set:", colors)
+
+# Adding an element to a set
+fruits.add("orange")
+print("Fruits Set after adding 'orange':", fruits)
+
+# Removing an element from a set
+fruits.remove("banana")
+print("Fruits Set after removing 'banana':", fruits)
+
+# Checking if an element is in a set
+if "apple" in fruits:
+    print("'apple' is in the Fruits Set")
+else:
+    print("'apple' is not in the Fruits Set")
