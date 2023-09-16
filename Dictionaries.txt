@@ -23,3 +23,7 @@ else:
 # Combining sets (Union)
 combined_set = fruits.union(colors)
 print("Combined Set (Union of Fruits and Colors):", combined_set)
+
+# Finding the common elements between sets (Intersection)
+common_elements = fruits.intersection(colors)
+print("Common Elements between Fruits and Colors:", common_elements)
