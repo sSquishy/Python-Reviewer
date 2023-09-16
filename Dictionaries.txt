@@ -19,3 +19,7 @@ if "apple" in fruits:
     print("'apple' is in the Fruits Set")
 else:
     print("'apple' is not in the Fruits Set")
+
+# Combining sets (Union)
+combined_set = fruits.union(colors)
+print("Combined Set (Union of Fruits and Colors):", combined_set)
