@@ -14,3 +14,13 @@ else:
         print("y is greater than 5 but not greater than 10")
     else:
         print("y is not greater than 5")
+
+# Example 3: Elif (else if) statement
+z = 3
+if z > 5:
+    print("z is greater than 5")
+elif z == 5:
+    print("z is equal to 5")
+else:
+    print("z is less than 5")
+
