@@ -24,3 +24,10 @@ elif z == 5:
 else:
     print("z is less than 5")
 
+# Example 4: Ternary conditional expression
+a = 15
+b = 10
+max_value = a if a > b else b
+print("The maximum value between a and b is:", max_value)
+
+
