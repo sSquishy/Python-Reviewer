@@ -30,4 +30,17 @@ b = 10
 max_value = a if a > b else b
 print("The maximum value between a and b is:", max_value)
 
+# Example 5: Using multiple conditions
+grade = 85
+if grade >= 90:
+    print("A grade")
+elif grade >= 80:
+    print("B grade")
+elif grade >= 70:
+    print("C grade")
+elif grade >= 60:
+    print("D grade")
+else:
+    print("F grade")
+
 
