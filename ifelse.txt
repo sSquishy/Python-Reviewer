@@ -51,3 +51,11 @@ elif not value:
     print("Value is empty")
 else:
     print("Value has a value")
+
+# Example 7: Short-circuiting with logical operators
+income = 50000
+credit_score = 700
+if income >= 50000 and credit_score >= 700:
+    print("You qualify for a loan")
+else:
+    print("You do not qualify for a loan")
