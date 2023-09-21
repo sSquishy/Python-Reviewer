@@ -43,4 +43,11 @@ elif grade >= 60:
 else:
     print("F grade")
 
-
+# Example 6: Checking for empty or None
+value = None
+if value is None:
+    print("Value is None")
+elif not value:
+    print("Value is empty")
+else:
+    print("Value has a value")
